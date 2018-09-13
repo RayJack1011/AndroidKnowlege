@@ -37,9 +37,11 @@ public class CustomProgrecess extends View {
         int height = MeasureSpec.getSize(heightMeasureSpec);
         int widthes,heightes;
         if(widthSpe == MeasureSpec.EXACTLY){
-            width = width/2;
-        }else{
+            widthes = width/2;
+        }
 
+        if(heightSpe == MeasureSpec.EXACTLY){
+            heightes = height/2;
         }
     }
 }
