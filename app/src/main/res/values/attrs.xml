@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CustomProgrecess">
+        <attr name="defualtColor" format="reference"/>
+        <attr name="checkColor" format="reference"/>
+        <attr name="defualtNum" format="integer"/>
+        <attr name="checkNum" format="integer"/>
+        <attr name="isTouch" format="boolean"/>
+        <attr name="backgroundResouce" format="reference"/>
+    </declare-styleable>
+
+</resources>
